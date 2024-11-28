@@ -1,3 +1,11 @@
+#terms
+n =int(input("Enter the number of terms: "))
+a, b = 0, 1
+print("Fibonacci sequence:")
+for _ in range(n):
+    print(a, end=" ")
+    a, b = b, a + b
+#snother method count
 num=int(input())
 n1=0
 n2=1
