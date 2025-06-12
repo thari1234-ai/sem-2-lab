@@ -1,0 +1,14 @@
+l=int(input())
+b=int(input())
+base=int(input())
+r=int(input())
+h=int(input())
+s=int(input())
+rec=l*b
+sq=s*s
+cir=3.14*r*r
+tri=0.5*h*base
+print("rec",rec)
+print("sq",sq)
+print("cir",cir)
+print("tri",tri)
